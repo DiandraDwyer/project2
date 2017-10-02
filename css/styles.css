@@ -1,0 +1,145 @@
+/*GENERAL STYLES*/
+
+.photo {
+    width: 100%;
+    height: 100%;
+}
+
+/*INTRO SLIDE*/
+
+#section0 {
+    background-image: url('../images/title-page-small.gif');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+#intro-text {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 500px;
+    margin-bottom: 2px;
+    color: white;
+    -webkit-text-stroke-width: .2px;
+    -webkit-text-stroke-color: darkblue;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+/*FIRST PAGE*/
+
+#section1 {
+    background-color:#eaa500;
+}
+
+.section1-paragraph {
+    width: 30%;
+    text-align: justify;
+    margin-left: 90px;
+}
+
+/*SECOND PAGE*/
+#section2 {
+    background-color: #ea4200;
+}
+
+/*THIRD PAGE*/
+
+#section3 {
+    background-color: #04bcc2;
+}
+
+/*FOURTH PAGE*/
+
+#section4 {
+    background-color: #eaa500;
+}
+
+
+/*FIFTH PAGE*/
+
+#section5 {
+    background-color: #ea4200;
+    
+}
+.video {
+    border: none;
+}
+
+/*QUIZ PAGE*/
+
+#section6 {
+    background-color: #04bcc2;
+}
+/*QUIZ CSS: Information from https://codepen.io/gcarino/pen/LDgtn*/
+body {
+    font-family: Open Sans;
+}
+
+h1 {
+    text-align: center;
+}
+
+#title {
+    text-decoration: underline;
+}
+
+#quiz {
+    text-indent: 10px;
+    display:none;
+}
+
+.button {
+    border:4px solid;
+    border-radius:5px;
+    width: 40px;
+    padding-left:5px;
+    padding-right: 5px;
+    position: relative;
+    float:right;
+    background-color: #DCDCDC;
+    color: black;
+    margin: 0 2px 0 2px;
+}
+
+.button.active {
+    background-color: #F8F8FF;
+    color: #525252;
+}
+
+button {
+    position: relative;
+    float:right;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+#container {
+    width:50%;
+    margin:auto;
+    padding: 0 25px 40px 10px;
+    background-color: #ea4200;
+    border:4px solid #B0E0E6;
+    border-radius:5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px #888;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#prev {
+    display:none;
+}
+
+#start {
+    display:none;
+    width: 90px;
+}
