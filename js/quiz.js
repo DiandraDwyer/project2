@@ -3,9 +3,9 @@
 //Code from: https://codepen.io/gcarino/pen/LDgtn
 (function() {
   var questions = [{
-    question: "What is 2*5?",
-    choices: [2, 5, 10, 15, 20],
-    correctAnswer: 2
+    question: "True or False: 3A hair typically requires a lot of moisturizer",
+    choices: [True, False],
+    correctAnswer: False
   }, {
     question: "What is 3*6?",
     choices: [3, 6, 9, 12, 18],

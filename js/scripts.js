@@ -1,4 +1,12 @@
-//scripts.js 
-$(document).ready(function() {
-	$('#fullpage').fullpage();
-});
+//<!--[if IE]>
+	
+			 
+		
+	//<![endif]-->
+
+
+		
+			
+			
+
+			//$(".demo").magnifierRentgen();
