@@ -1,46 +1,36 @@
 /*FULL-PAGE STYLES*/
-/* Style for our header texts
-	* --------------------------------------- */
-	h1{
-		font-size: 5em;
-		font-family: arial,helvetica;
-		color: #fff;
-		margin:0;
-	}
-	.intro p{
-		color: #fff;
-		font-size: 20px;
-		font-family: sans-serif;
-		
-	}
-
-	/* Centered texts in each section
-	* --------------------------------------- */
-	.section{
-		text-align:center;
-	}
-
-	/* Overwriting styles for control arrows for slides
-	* --------------------------------------- */
-	.controlArrow.prev {
-		left: 50px;
-	}
-	.controlArrow.next{
-		right: 50px;
-	}
-
-
-	/* Bottom menu
-	* --------------------------------------- */
-	#infoMenu li a {
-		color: #fff;
-	}
-
-	/* Bottom menu
-	* --------------------------------------- */
-	#infoMenu li a {
-		color: #fff;
-	}
+  /* Style for our header texts
+         * --------------------------------------- */
+         h1{
+         font-size: 5em;
+         font-family: arial,helvetica;
+         color: #fff;
+         margin:0;
+         margin-top: 30px;
+         }
+         .intro p{
+         color: #fff;
+         font-size: 20px;
+         font-family: sans-serif;
+         }
+         /* Centered texts in each section
+         * --------------------------------------- */
+         .section{
+         text-align:center;
+         }
+         /* Overwriting styles for control arrows for slides
+         * --------------------------------------- */
+         .controlArrow.prev {
+         left: 50px;
+         }
+         .controlArrow.next{
+         right: 50px;
+         }
+         /* Bottom menu
+         * --------------------------------------- */
+         #infoMenu li a {
+         color: #fff;
+         }
 /*GENERAL STYLES*/
 
 .photo {
@@ -48,13 +38,23 @@
     height: 100%;
 }
 
+.test-your {
+    margin-top: 40px;
+}
+
+cite {
+    color: white;
+    font-family: sans-serif;
+    
+}
+
 /*INTRO SLIDE*/
 
 #section0 {
     background-image: url('../images/title-page-small.gif');
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
+     height: auto;
+     width: 100%;
 }
 
 #intro-text {
@@ -76,15 +76,54 @@
 }
 
 .section1-paragraph {
-    width: 30%;
-    text-align: justify;
-    margin-left: 90px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
+.hair-texture-image {
+    width: 200px;
+    height: 180px;
+}
+.image-align {
+    margin: auto;
+}
+
+.image-inline {
+    display: inline-block;
+    
+}
 /*SECOND PAGE*/
 #section2 {
     background-color: #ea4200;
 }
+
+.m-paragraph {
+    width: 75%;
+    text-align: center;
+    display: table;
+    margin: auto;
+}
+
+.m-explanation {
+    width: 350px;
+    font-size: 12px;
+   
+}
+
+.tub-photo {
+    background-image: url('../images/tub.png');
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+   display: inline-block;
+   margin-right: 30px;
+   margin-left: 30px;
+   text-align: center;
+}
+
 
 /*THIRD PAGE*/
 
@@ -124,7 +163,7 @@ h1 {
 }
 
 #title {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 #quiz {
@@ -147,7 +186,7 @@ h1 {
 
 .button.active {
     background-color: #F8F8FF;
-    color: #525252;
+    color: #eaa500;
 }
 
 button {
@@ -162,6 +201,7 @@ button {
 
 #container {
     width:50%;
+    height: 20%;
     margin:auto;
     padding: 0 25px 40px 10px;
     background-color: #ea4200;

@@ -2,10 +2,11 @@
 
 //Code from: https://codepen.io/gcarino/pen/LDgtn
 (function() {
+  
   var questions = [{
     question: "True or False: 3A hair typically requires a lot of moisturizer",
-    choices: [True, False],
-    correctAnswer: False
+    choices: [true, false],
+    correctAnswer: false
   }, {
     question: "What is 3*6?",
     choices: [3, 6, 9, 12, 18],

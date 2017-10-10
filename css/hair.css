@@ -1,0 +1,266 @@
+
+/*GENERAL STYLING: PRODUCTS SECTION*/
+
+h2 {
+    color: white;
+    font-family: sans-serif;
+    
+}
+
+ul {
+    color: white;
+    font-family: sans-serif;
+}
+
+.products {
+    margin-left: 5%;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.products-dv {
+    margin-bottom: 70px;
+    margin-top: 10px;
+    
+}
+
+.product-list {
+      list-style-type: none;
+      display: inline;
+      margin: 20px;
+      margin-top: 0px;
+}
+
+.left-space {
+    float: left;
+}
+
+.hide-me {
+    display: none;
+}
+
+.hide-me:hover {
+    display: inherit;
+}
+
+
+.changing-text {
+    display: none;
+}
+  
+
+
+/*PETROLEUM BASED PRODUCT*/
+.petroleum-product {
+    width: 75%;
+    height: 160px;
+    padding-top: 110px;
+    border-radius: 20px;
+    margin: 0px;
+    display: inline-block;
+    
+}
+
+
+.dyes {
+    height: 7%;
+    width: 100%;
+    background: green; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#d6fff2, #4dcca6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#d6fff2, #4dcca6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#d6fff2, #4dcca6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#d6fff2,#4dcca6); /* Standard syntax */
+    
+    border-radius: 5px;   
+    
+}
+
+/*HOVER STATE*/
+
+.dyes:hover {
+    
+    height: 7%;
+    width: 100%;
+    background: green; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#c4562f, #7c290b); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#c4562f, #7c290b); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#c4562f, #7c290b); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#c4562f,#7c290b); /* Standard syntax */
+    
+    border-radius: 5px;   
+    
+}
+
+.natural-oils {
+    height: 10%;
+    width: 100%;
+    background: green; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#dee8a7, #8b993d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#dee8a7, #8b993d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#dee8a7, #8b993d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#dee8a7, #8b993d); /* Standard syntax */
+    border-radius: 5px;    
+}
+
+/*HOVER STATE*/
+.natural-oils:hover {
+    
+    height: 10%;
+    width: 100%;
+    background: green; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#c4562f, #7c290b); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#c4562f, #7c290b); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#c4562f, #7c290b); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#c4562f,#7c290b); /* Standard syntax */
+    
+    border-radius: 5px;   
+    
+}
+
+
+.mineral-oil {
+    height: 33%;
+    width: 100%;
+    background: green; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#eac791, #b28339); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#eac791, #b28339); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#eac791, #b28339); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#eac791, #b28339); /* Standard syntax */
+    border-radius: 5px;    
+}
+
+/*HOVER STATE*/
+.mineral-oil:hover {
+    
+    height: 33%;
+    width: 100%;
+    background: green; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#c4562f, #7c290b); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#c4562f, #7c290b); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#c4562f, #7c290b); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#c4562f,#7c290b); /* Standard syntax */
+    
+    border-radius: 5px;   
+    
+}
+    
+.petroleum {
+    height: 50%;
+    width: 100%;
+    background: green; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#dbd9d6, #91908e); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#dbd9d6, #91908e); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#dbd9d6, #91908e); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#dbd9d6, #91908e); /* Standard syntax */
+    border-radius: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/*HOVER STATE*/
+.petroleum:hover {
+    
+    height: 50%;
+    width: 100%;
+    background: green; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#c4562f, #7c290b); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#c4562f, #7c290b); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#c4562f, #7c290b); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#c4562f,#7c290b); /* Standard syntax */
+    border-radius: 5px;   
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+/*WATER BASED PRODUCT*/
+.water-product {
+    width: 75%;
+    height: 160px;
+    padding-top: 110px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+
+.dyes2 {
+    height: 7%;
+    width: 100%;
+    background: green; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#d6fff2, #4dcca6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#d6fff2, #4dcca6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#d6fff2, #4dcca6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#d6fff2,#4dcca6); /* Standard syntax */
+    
+    border-radius: 5px;   
+    
+}
+
+/*HOVER STATE*/
+.dyes2:hover {
+    
+    height: 7%;
+    width: 100%;
+    background: green; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#c4562f, #7c290b); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#c4562f, #7c290b); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#c4562f, #7c290b); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#c4562f,#7c290b); /* Standard syntax */
+    
+    border-radius: 5px;   
+    
+}
+.natural-oils2 {
+    height: 43%;
+    width: 100%;
+    background: green; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#dee8a7, #8b993d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#dee8a7, #8b993d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#dee8a7, #8b993d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#dee8a7, #8b993d); /* Standard syntax */
+    border-radius: 5px;    
+}
+
+/*HOVER STATE*/
+.natural-oils2:hover {
+    
+    height: 43%;
+    width: 100%;
+    background: green; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#c4562f, #7c290b); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#c4562f, #7c290b); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#c4562f, #7c290b); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#c4562f,#7c290b); /* Standard syntax */
+    
+    border-radius: 5px;   
+    
+}
+    
+.water {
+    height: 50%;
+    width: 100%;
+    background: green; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#f2f7ff, #c1d9ff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f2f7ff, #c1d9ff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f2f7ff, #c1d9ff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f2f7ff, #c1d9ff); /* Standard syntax */
+    border-radius: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/*HOVER STATE*/
+.water:hover {
+    
+    height: 50%;
+    width: 100%;
+    background: green; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#c4562f, #7c290b); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#c4562f, #7c290b); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#c4562f, #7c290b); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#c4562f,#7c290b); /* Standard syntax */
+    border-radius: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+

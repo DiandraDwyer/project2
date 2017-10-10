@@ -1,170 +1,245 @@
+
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Natural Hair Care 101 </title>
-	<meta name="author" content="Alvaro Trigo Lopez" />
-	<meta name="description" content="fullPage full-screen navigation and sections control menu." />
-	<meta name="keywords"  content="fullpage,jquery,demo,screen,fullscreen,navigation,control arrows, dots" />
-	<meta name="Resource-type" content="Document" />
-
-
-	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
-	<link rel="stylesheet" href="css/jQuery.MagnifierRentgen.min.css">
-	<link rel="stylesheet" type="text/css" href="css/styles.css" />
-	<style>
-
-	/* Style for our header texts
-	* --------------------------------------- */
-	h1{
-		font-size: 5em;
-		font-family: arial,helvetica;
-		color: #fff;
-		margin:0;
-	}
-	.intro p{
-		color: #fff;
-		font-size: 20px;
-		font-family: sans-serif;
-		
-	}
-
-	/* Centered texts in each section
-	* --------------------------------------- */
-	.section{
-		text-align:center;
-	}
-
-	/* Overwriting styles for control arrows for slides
-	* --------------------------------------- */
-	.controlArrow.prev {
-		left: 50px;
-	}
-	.controlArrow.next{
-		right: 50px;
-	}
-
-
-	/* Bottom menu
-	* --------------------------------------- */
-	#infoMenu li a {
-		color: #fff;
-	}
-	</style>
-
-	
-
-</head>
-<body>
-
-<div id="fullpage">
-	<div class="section" id="section0">
-		<div class="intro">
-			<p id = "intro-text"> Welcome to Natural Hair Care 101! </p> <p> A quick and easy guide to your healthiest hair!</p>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <title>Natural Hair Care 101 </title>
+      <meta name="author" content="Alvaro Trigo Lopez" />
+      <meta name="description" content="fullPage full-screen navigation and sections control menu." />
+      <meta name="keywords"  content="fullpage,jquery,demo,screen,fullscreen,navigation,control arrows, dots" />
+      <meta name="Resource-type" content="Document" />
+      <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+      <link rel="stylesheet" href="css/jQuery.MagnifierRentgen.min.css">
+	  <link href = "css/hair.css" rel = "stylesheet" type = "text/css">
+      <link rel="stylesheet" type="text/css" href="css/styles.css" />
+   </head>
+   <body>
+      <div id="fullpage">
+         <div class="section" id="section0">
+            <div class="intro">
+               <p id = "intro-text"> Welcome to Natural Hair Care 101! </p>
+               <p> A quick and easy guide to your healthiest hair!</p>
+            </div>
+         </div>
+		  <div class="section" id="section1">
+			<div class="slide" id="slide1">
+            <div class="intro">
+               <h1>Do's and Don'ts</h1>
+            </div>
+         </div>
+		  <div class="slide" id="slide2">
+				<img src = "images/3A.jpg" alt = "3A" class = "image-inline hair-texture-image ">
 			</div>
-		</div>
-	</div>
-	<div class="section" id="section1">
-	    <div class="slide" id="slide1">
-			<div class="intro">
-				<h1>Hair Texture</h1>
-				<p class = "section1-paragraph">
-					First, it’s important to understand your <span style = "font-weight: bold; text-decoration: underline;">hair texture</span>. Different hair textures require different hair care routines! </p>
-				<p class = "section1-paragraph">
-This is important because the more curly your hair texture, the less your scalp’s natural oils will slide down the shaft of your hair strands and moisturize them. This means, the curlier your hair is, the more your hair will need to be moisturized. 
-Learn about each of the hair textures: 3A , 3B, 3C, 4A, 4B and 4C
-
-				</p>
-				
+		  <div class="slide" id="slide3">
+				<img src = "images/3A.jpg" alt = "3A" class = "image-inline hair-texture-image ">
 			</div>
-		</div>
-
-		</div>
-
-	<div class="section" id="section2">
-	    <div class="slide" id="slide">
-		<div class="intro">
-			<h1>Slide 2</h1>
-			<div class="demo" data-image="images/msi.jpg" data-image-zoom="images/msi-open.jpg" data-size="100">
-		</div>
-	</div>
-	</div>
-	<div class="section" id="section3">
-		<div class="intro">
-			<h1>Enjoy it</h1>
-			
-		</div>
-	</div>
-	
-	<div class="section" id="section4">
-		<div class="intro">
-			<h1>Enjoy it</h1>
-		</div>
-	</div>
-	
-		<div class="section" id="section5">
-		<div class="intro">
-			<h1>Enjoy it</h1>
-			<iframe width="660" height="415" src="https://www.youtube.com/embed/4vd-AP_q2r4?rel=0" allowfullscreen></iframe>
-		</div>
-	</div>
-	<div class="section" id="section6">
-		<div class="intro">
-							<!--(Quiz)-->
-						 	<div class = "section" id='container'>
-			<div id='title'>
-				<h1> Test Your Knoweledge!</h1>
+		  <div class="slide" id="slide4">
+				<img src = "images/3A.jpg" alt = "3A" class = "image-inline hair-texture-image ">
 			</div>
-   			<br/>
-  			<div id='quiz'></div>
-    		<div class='button' id='next'><a href='#'>Next</a></div>
-    		<div class='button' id='prev'><a href='#'>Prev</a></div>
-    		<div class='button' id='start'> <a href='#'>Start Over</a></div>
-    		<!-- <button class='' id='next'>Next</a></button>
-    		<button class='' id='prev'>Prev</a></button>
-    		<button class='' id='start'> Start Over</a></button> -->
-    	</div>
+		  </div>
+         <div class="section" id="section2">
+            <div class="slide" id="slide1">
+               <div class="intro">
+                  <h1>Hair Texture</h1>
+                  <p class = "section1-paragraph">
+                     Next, it’s important to understand your <span style = "font-weight: bold; text-decoration: underline;">hair texture</span>. Different hair textures require different hair care routines! 
+                  </p>
+                  <p class = "section1-paragraph">
+                     This is important because the more curly your hair texture, the less your scalp’s natural oils will slide down the shaft of your hair strands and moisturize them. This means, the curlier your hair is, the more your hair will need to be moisturized. </p> 
+                     <p>Hover over the images below to learn about each of the hair textures: 3A , 3B, 3C, 4A, 4B and 4C
+                  </p>
+				  <!--<div class = "image-align">-->
+				  <!---->
+				  <!---->
+				  <!--</div>-->
+               </div>
+            </div>
+			<div class="slide" id="slide2">
+				<img src = "images/3A.jpg" alt = "3A" class = "image-inline hair-texture-image ">
+			</div>
+			<div class="slide" id="slide3">
+				 <img src = "images/3B.jpg" alt = "3B"  class = "image-inline hair-texture-image ">
+			</div>
+			<div class="slide" id="slide4">
+				  <img src = "images/3C.jpg" alt = "3C"  class = "image-inline hair-texture-image ">
+			</div>
+			<div class="slide" id="slide5">
+				<img src = "images/4A.jpg" alt = "4A"  class = "image-inline hair-texture-image ">
+			</div>
+			<div class="slide" id="slide6">
+				  <img src = "images/4B.jpg" alt = "4B"  class = "image-inline hair-texture-image ">
+			</div>
+			<div class="slide" id="slide7">
+							  <img src = "images/4C.jpg" alt = "4C"  class = "image-inline hair-texture-image ">
+			</div>
+         </div>
+         <div class="section" id="section3">
+            <div class="slide" id="slide2">
+               <div class="intro">
+                  <h1>Moisturizers</h1>
+				  <div class ="m-paragraph">
+					<p>Moisturizers are vital to the health of your hair! Without them, it can become dry, brittle and break off at the ends. Knowing what type of moisturizer to use however, is just as important for both the health of your hair and body.  </p>
+				  <!--<p> Water-based products (that have water as the first ingredient on the label) are the best for your hair. It is important to avoid petroleum and mineral-oil based products. </p>-->
+				  <p>Hover over the graphic below about water-based products and petroleum-based products to learn why. </p>
+				  </div>
+                 <div class = "products"> <!--PRODUCTS DIV-->
+
+<div class = "tub-photo">
+<div class = "petroleum-product">
+	
+    <div class = "dyes product-1" >
+        
+    </div>
+    <div class = "natural-oils product-2">
+        
+    </div>
+    <div class = "mineral-oil product-3"> 
+        
+    </div>
+    <div class = "petroleum product-4">
+        
+    </div>
+    
+</div>
+</div>
+<div class = "tub-photo">
+<div class = "water-product">
+    <div class = "dyes2" >
+        
+    </div>
+    <div class = "natural-oils2">
+        
+    </div>
+    <div class = "mineral-oil2"> 
+        
+    </div>
+    <div class = "water">
+        
+    </div>
+    
+</div>    
+</div>
+
+<div class = "products-dv left-space">
+    <div class = "product-list">
+		<div class = "changing-text">
+    <h2> Chemicals and Dyes </h2>
+	<p class = "m-explanation"> Chemicals and Dyes often come at the end of the ingredients list, which means proportionately there are less of them present in the product than other ingredients. However, this does not mean they do not have a huge impact on your health! </p>
+	
+	<p> These are </p>
+<ul class = "product-list">
+    <li> Propanol Alcohol</li>
+    <li> SD Alcohol</li>
+     <li>SD Alcohol 40 </li>
+    <li> Sulfur</li>
+     <li> Sulfates</li>
+    <li> Propyl Alcohol </li>
+    <li> Ethanol Alcohol </li>
+    <li> Isopropyl Alcohol</li>
+      <li> Color dyes</li>
+</ul>
+</div>
 		</div>
+	      <div class = "product-list">
+<div class = "changing-text2">
+<h2> Natural Oils and Extracts</h2>
+<ul class = "product-list">
+    <li> Vegetable Glycerine</li>
+    <li> Argan Oil</li>
+    <li> Castor Oil</li>
+    <li> Jojoba Oil</li>
+     <li> Coconut Oil</li>
+    <li> Aloe Vera Extract</li>
+    <li> Rosemary Extract</li>
+    <li> Chamomile Extract</li>
+   
+</ul>
+</div>
+</div>
+    
+     <div class = "product-list">
+<div class = "changing-text3">
+    <h2> Chemicals that are Helpful</h2>
+<ul class = "product-list">
+    <li> Propanol Alcohol</li>
+    <li> SD Alcohol</li>
+     <li>SD Alcohol 40 </li>
+    <li> Sulfur</li>
+     <li> Sulfates</li>
+    <li> Propyl Alcohol </li>
+    <li> Ethanol Alcohol </li>
+    <li> Isopropyl Alcohol</li>
+      <li> Color dyes</li>
+</ul>
+</div>
+</div>
+     
+
+
+ <div class = "product-list">
+	<div class = "changing-text4">
+<ul class = "product-list">
+	<h2> Petroleum</h2>
+    <li> Sulfur</li>
+    <li> Sulfur</li>
+    <li> Sulfur</li>
+    <li> Sulfur</li>
+    <li> Sulfur</li>
+    <li> Sulfur</li>
+    <li> Sulfur</li>
+</ul>
 	</div>
 </div>
-		  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		  
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-	
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-	
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+</div>
+</div>  <!--THIS DIV CLOSES THE PRODUCTS DIV-->
 
-	<script type="text/javascript" src="js/vendors/scrolloverflow.js"></script>
-
-	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
-	
-	
-	<script>
-		var console = { log: function() {} };
-		
-		
-		$(document).ready(function() {
-			$('#fullpage').fullpage({
-				anchors: ['firstPage', 'secondPage', '3rdPage'],
-				sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
-				navigation: true,
-				navigationPosition: 'right',
-				navigationTooltips: ['First page', 'Second page', 'Third and last page']
-			});
-		});			
-			
-		
-	</script>
-	 <!--<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>-->
-	<!--<script src="js/jQuery.MagnifierRentgen.min.js"></script>-->
-	 <!--<script src ="js/quiz.js"></script>-->
-     <script src="js/scripts.js"></script>
-
-</body>
+ <!--THIS DIV MATCHES THE DIV WITH THE CLASS "INTRO"-->
+    <cite> Information about chemicals from <a href = https://www.naturallycurly.com/curlreading/curl-products/ingredients-i-avoid-in-my-natural-hair-products/ target = "blank"> naturallycurly.com </a> </cite>
+   </div>
+            </div>
+         </div>
+         <div class="section" id="section4">
+            <div class="intro">
+               <h1>Shampoos & Conditioners </h1>
+			    <div class="demo" data-image="images/msi.jpg" data-image-zoom="images/msi-open.jpg" data-size="100">
+                  </div>
+            </div>
+         </div>
+        
+         <div class="section" id="section5">
+            <div class="intro">
+               <h1>A History of Hairstyles</h1>
+               <iframe width="660" height="415" src="https://www.youtube.com/embed/4vd-AP_q2r4?rel=0" allowfullscreen></iframe>
+            </div>
+         </div>
+         <div class="section" id="section6">
+            <div class="intro">
+               <!--(Quiz)-->
+			     <h1 class = "test-your"> Test Your Knowledge!</h1>
+               <div class = "section" id='container'>
+                  <div id='title'>
+                  </div>
+                  <br/>
+                  <div id='quiz'></div>
+                  <div class='button' id='next'><a href='#'>Next</a></div>
+                  <div class='button' id='prev'><a href='#'>Prev</a></div>
+                  <div class='button' id='start'> <a href='#'>Start Over</a></div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script src="js/jQuery.MagnifierRentgen.min.js"></script>
+      <script src="js/jquery.fullPage.min.js"></script>
+      <script src ="js/quiz.js"></script>
+      <script src="js/scripts.js"></script>
+   </body>
 </html>
+

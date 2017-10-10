@@ -1,0 +1,10 @@
+.wrap {
+  max-width: 480px;
+  margin: 30px auto;
+  border: tomato 7px solid;
+  position: relative;
+}
+
+h1 { margin:150px auto 0 auto; text-align:center; color:#fff;}
+
+body { background-color:#222;}
