@@ -80,3 +80,18 @@ $('.product-4').mouseout(function () {
 		
     });
 
+$('.product-5').mouseenter(function () {
+        $('.changing-text5').css({
+            'display': 'block'
+        });
+		
+    });
+
+$('.product-5').mouseout(function () {
+        $('.changing-text5').css({
+            'display': 'none'
+        });
+		
+    });
+
+
