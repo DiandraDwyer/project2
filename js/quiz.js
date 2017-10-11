@@ -8,9 +8,9 @@
     choices: [true, false],
     correctAnswer: false
   }, {
-    question: "What is 3*6?",
-    choices: [3, 6, 9, 12, 18],
-    correctAnswer: 4
+    question: "True or False: common shampoo brands and household bleach both have the ingredient sodium laureth sulfate in common",
+    choices: [true, false],
+    correctAnswer: true
   }, {
     question: "What is 8*9?",
     choices: [72, 99, 108, 134, 156],

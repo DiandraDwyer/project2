@@ -2,7 +2,7 @@
   /* Style for our header texts
          * --------------------------------------- */
          h1{
-         font-size: 5em;
+         font-size: 4em;
          font-family: arial,helvetica;
          color: #fff;
          margin:0;
@@ -209,7 +209,7 @@ html {
     padding: 100px;
 }
 .p-w {
-    margin-left: 400px;
+    margin-left: 350px;
 }
 /*FOURTH PAGE*/
 
@@ -222,6 +222,8 @@ html {
 .shamp-list {
     display: table;
     margin: auto;
+    height: 20px;
+    margin-left: 100px;
 }
 .shamp-li {
     display: inline-block;
@@ -230,7 +232,7 @@ html {
 
 
 .lil-space {
-    padding: 40px;
+    padding: 60px;
 }
 .shampoo-text {
     margin-left: 0px;
@@ -257,6 +259,10 @@ html {
     margin-bottom: 5px;
     float: right;
     width: 200px;
+}
+
+.chem-right {
+    margin-left: 10px;
 }
 /*FIFTH PAGE*/
 
