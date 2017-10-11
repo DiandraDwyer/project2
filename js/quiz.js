@@ -4,7 +4,7 @@
 (function() {
   
   var questions = [{
-    question: "True or False: 3A hair typically requires a lot of moisturizer",
+    question: "True or False: 3A hair typically requires the most moisturizer",
     choices: [true, false],
     correctAnswer: false
   }, {
