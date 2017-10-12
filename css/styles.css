@@ -39,7 +39,8 @@
 }
 
 .test-your {
-    margin-top: 40px;
+   
+    margin-bottom: 40px;
 }
 
 cite {
@@ -48,17 +49,66 @@ cite {
     
 }
 
+.respon {
+     width: 100%;
+    height: auto;
+}
+
+/*.video-outer {
+    padding-bottom: 50%;
+}*/
+.video-respon {
+    height: auto;
+    width: 100%;
+   
+}
 /*INTRO SLIDE*/
 
 /*CODE MODIFIED FROM: https://css-tricks.com/perfect-full-page-background-image/*/
-html {
-      background: url('../images/title-page-small.gif')  fixed;
+
+
+ @media only screen and (min-width: 500px) {
+    html {
+             background: url('../images/title-page-small.gif')  fixed;
     background-repeat: no-repeat;
      -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+    }
 }
+
+
+ @media only screen and (max-width: 500px) {
+    body {
+        background: url('../images/new-title4.jpg');
+        background-size: contain;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+
+ @media only screen and (max-width: 500px) {
+    .water-pic {
+             background: url('../images/water-based.jpg')  fixed;
+    background-repeat: no-repeat;
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    }
+}
+
+ @media only screen and (min-width: 500px) {
+    .prod-wide {
+        
+    }
+}
+
+
+
 #intro-text {
     font-weight: bold;
     font-size: 30px;
@@ -70,6 +120,8 @@ html {
     text-decoration: none;
     font-family: sans-serif;
 }
+
+
 
 
 /*FIRST PAGE*/
@@ -119,7 +171,11 @@ html {
     width: 600px;
     
 }
-
+.new-style {
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+}
 /*SLIDE TWO*/
 /*SLIDE THREE*/
 
@@ -222,29 +278,35 @@ html {
 .shamp-list {
     display: table;
     margin: auto;
-    height: 20px;
-    margin-left: 100px;
+    margin-top: 0px;
+    margin-left: 180px;
 }
 .shamp-li {
     display: inline-block;
     margin-bottom: 0px;
+    margin-top: 0px;
+    height: 0px;
 }
 
 
 .lil-space {
-    padding: 60px;
+    padding: 40px;
 }
 .shampoo-text {
     margin-left: 0px;
     margin-bottom: 0px;
-    margin-right: 200px;
-    width: 200px;
+    margin-right: 150px;
+    width: 100px;
 }
 .pesticide-text {
     margin-left: 80px;
     margin-bottom: 0px;
     float: left;
     width: 200px;
+}
+
+.space-fix {
+    margin-bottom: 0px;
 }
 
 .bleach-text {
@@ -263,6 +325,13 @@ html {
 
 .chem-right {
     margin-left: 10px;
+}
+
+.image-small {
+    width: 800px;
+    height: 400px;
+    margin-left: 40px;
+  text-align: center;
 }
 /*FIFTH PAGE*/
 
@@ -290,6 +359,7 @@ html {
 .new-height {
     height: 250px;
 }
+
 
 /*QUIZ CSS: Information from https://codepen.io/gcarino/pen/LDgtn*/
 body {
@@ -339,7 +409,7 @@ button {
 
 #container {
     width:50%;
-    height: 20%;
+    height: 60%;
     margin:auto;
     padding: 0 25px 40px 10px;
     background-color: #ea4200;
@@ -365,6 +435,11 @@ ul {
     width: 90px;
 }
 
+/*SOURCES PAGE*/
+
+#section7 {
+    background-color: #eaa500;;
+}
 
 
 /*GENERAL STYLING: PRODUCTS SECTION*/
@@ -394,7 +469,7 @@ ul {
 }
 
 .product-list {
-      list-style-type: none;
+    /*  list-style-type: none;*/
       display: inline;
       margin: 20px;
       margin-top: 0px;
@@ -417,8 +492,17 @@ ul {
     display: none;
 }
   
+.baby-pg {
+    width: 300px;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
 
-
+.baby-pg2 {
+    width: 400px;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
 /*PETROLEUM BASED PRODUCT*/
 .petroleum-product {
     width: 75%;

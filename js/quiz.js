@@ -5,24 +5,27 @@
   
   var questions = [{
     question: "True or False: 3A hair typically requires the most moisturizer",
-    choices: [true, false],
-    correctAnswer: false
-  }, {
+    choices: ['true', 'false'],
+    correctAnswer: 1
+  },
+  {
     question: "True or False: common shampoo brands and household bleach both have the ingredient sodium laureth sulfate in common",
-    choices: [true, false],
-    correctAnswer: true
-  }, {
-    question: "What is 8*9?",
-    choices: [72, 99, 108, 134, 156],
+    choices: ['true', 'false'],
     correctAnswer: 0
-  }, {
-    question: "What is 1*7?",
-    choices: [4, 5, 6, 7, 8],
+  },
+  {
+    question: "Which of the following oils is a poor moisturizer?",
+    choices: ['jojoba oil', 'argan oil', 'caster oil', 'mineral oil'],
     correctAnswer: 3
+  }, 
+  {
+    question: "For curly hair, where should you always start combing?",
+    choices: ['The roots', 'The tips', 'The nape of your neck', 'Halfway down'],
+    correctAnswer: 1
   }, {
-    question: "What is 8*8?",
-    choices: [20, 30, 40, 50, 64],
-    correctAnswer: 4
+    question: "According to the Allure video, when did box braids come into style?",
+    choices: ['The 1930s', 'The 1990s', 'The 1960s', 'The 1950s'],
+    correctAnswer: 1
   }];
   
   var questionCounter = 0; //Tracks question number
@@ -165,7 +168,7 @@
     }
     
     score.append('You got ' + numCorrect + ' questions out of ' +
-                 questions.length + ' right!!!');
+                 questions.length + ' right!');
     return score;
   }
 })();
