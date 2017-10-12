@@ -67,7 +67,7 @@ cite {
 /*CODE MODIFIED FROM: https://css-tricks.com/perfect-full-page-background-image/*/
 
 
- @media only screen and (min-width: 500px) {
+
     html {
              background: url('../images/title-page-small.gif')  fixed;
     background-repeat: no-repeat;
@@ -76,7 +76,7 @@ cite {
   -o-background-size: cover;
   background-size: cover;
     }
-}
+
 
 
  @media only screen and (max-width: 500px) {
